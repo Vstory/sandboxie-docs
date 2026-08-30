@@ -102,6 +102,8 @@
 
 [Copy Limit Silent](CopyLimitSilent.md)
 
+[Copy Newer](CopyNewer.md)
+
 [Cover Boxed Windows](CoverBoxedWindows.md)
 
 [Custom Chromium Flags](CustomChromiumFlags.md)

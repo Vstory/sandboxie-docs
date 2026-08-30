@@ -96,6 +96,8 @@
 
 [复制限制静默模式](CopyLimitSilent.md)
 
+[Copy Newer（复制较新文件）](CopyNewer.md)
+
 [覆盖沙箱窗口](CoverBoxedWindows.md)
 
 [自定义区域设置/语言ID](CustomLCID.md)
