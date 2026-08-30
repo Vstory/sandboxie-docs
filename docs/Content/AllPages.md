@@ -780,6 +780,8 @@
 
 [USB Sandboxing](../PlusContent/USBSandboxing.md)
 
+[Use Auto Recover Ignore For Quick](UseAutoRecoverIgnoreForQuick.md)
+
 [Use File Image](UseFileImage.md)
 
 [Use Non Rude Hwnd Hack](UseNonRudeHwndHack.md)

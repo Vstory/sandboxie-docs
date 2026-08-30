@@ -712,6 +712,8 @@
 
 [USB 沙箱化](../PlusContent/USBSandboxing.md)
 
+[在快速恢复中应用自动恢复忽略](UseAutoRecoverIgnoreForQuick.md)
+
 [使用文件映像](UseFileImage.md)
 
 [使用隐私模式](UsePrivacyMode.md)
