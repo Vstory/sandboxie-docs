@@ -18,4 +18,6 @@ The third example setting specifies that QuickRecovery from the InstallBox sandb
 
 Note that when [Quick Recovery](QuickRecovery.md) looks in the specified folder, it also looks in any folders within that folder, and any folders within those folders, for as many levels of depth as are needed.
 
+Since Sandboxie Plus 1.18.0, folder paths may contain the wildcards `*` (matches any number of characters), `?` (matches a single character), and `**` (matches any number of characters, including path separators). Paths are matched in their NT, DOS, and network-alias forms.
+
 Related [Sandboxie Control](SandboxieControl.md) setting: [Sandbox Settings > Recovery > Quick Recovery](RecoverySettings.md#quick-recovery)

@@ -18,5 +18,7 @@ _RecoverFolder_ 是 [沙盘配置文件](SandboxieIni.md) 中的一个沙箱设�
 
 请注意，当 [快速恢复](QuickRecovery.md) 检查指定文件夹时，它还会检查该文件夹内的任何子文件夹，以及这些子文件夹内的任何子文件夹，检查的深度层级按需而定。
 
+自 Sandboxie Plus 1.18.0 起，文件夹路径可以包含通配符 `*`（匹配任意数量的字符）、`?`（匹配单个字符）和 `**`（匹配任意数量的字符，包括路径分隔符）。匹配时会同时涵盖路径的 NT、DOS 和网络别名形式。
+
 相关的 [沙盘控制面板](SandboxieControl.md) 设置：[沙箱设置 > 恢复 > 快速恢复](RecoverySettings.md#quick-recovery)
 

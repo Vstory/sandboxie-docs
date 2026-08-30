@@ -16,4 +16,8 @@ _AutoRecoverIgnore_ 是 [Sandboxie Ini](SandboxieIni.md) 配置文件中的一�
 
 第二和第三个示例将指定的文件夹从即时恢复范围中排除。
 
+自 Sandboxie Plus 1.18.0 起，条目可以包含通配符 `*`（匹配任意数量的字符）、`?`（匹配单个字符）和 `**`（匹配任意数量的字符，包括路径分隔符）。匹配时会同时涵盖路径的 NT、DOS 和网络别名形式。
+
+自 Sandboxie Plus 1.18.0 起，排除列表也可以应用于 [快速恢复](QuickRecovery.md) 窗口；请参阅 [在快速恢复中应用自动恢复忽略](UseAutoRecoverIgnoreForQuick.md)。
+
 相关的 [Sandboxie控制](SandboxieControl.md) 设置：[沙箱设置 > 恢复 > 即时恢复](RecoverySettings.md#immediate-recovery)
