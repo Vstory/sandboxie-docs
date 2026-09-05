@@ -67,8 +67,8 @@ ForceProtectionOnMount=y
 - `IMBOX_MOUNT_REQ.protect_root` - 挂载管理器使用的挂载请求标志。
 - [`启动命令行`](StartCommandLine.md#挂载沙盒镜像) - 命令行操作，包括用于受保护挂载的 `mount_protected` 开关。
 
-[^1]: 参见 `沙盒管理器\Windows\OptionsGeneral.cpp` 中的界面代码 - `COptionsWindow::LoadGeneral` 和 `COptionsWindow::SaveGeneral` 通过 `m_pBox` 处理 `ForceProtectionOnMount` 键的读写。
+[^1]: 参见 `SandMan\Windows\OptionsGeneral.cpp` 中的界面代码 - `COptionsWindow::LoadGeneral` 和 `COptionsWindow::SaveGeneral` 通过 `m_pBox` 处理 `ForceProtectionOnMount` 键的读写。
 [^2]: `..\Sandboxie\core\svc\MountManagerWire.h` 中的挂载协议定义 - `tagIMBOX_MOUNT_REQ` 包含挂载管理器使用的 `protect_root` 字段。
-[^3]: `沙盒管理器\Windows\BoxImageWindow.cpp` 中的实现 - `CBoxImageWindow::SetForce(bool force)` 强制对话框复选框反映强制的受保护挂载。
+[^3]: `SandMan\Windows\BoxImageWindow.cpp` 中的实现 - `CBoxImageWindow::SetForce(bool force)` 强制对话框复选框反映强制的受保护挂载。
 [^4]: 挂载管理器代码（挂载请求组装）会把 `protect_root` 标志传播到服务/驱动；参见服务代码库中的挂载管理器实现（例如 `MountManager::AcquireBoxRoot`）。
 [^5]: `Sandboxie\apps\start\Start.cpp` 中的启动进程实现 - 在沙盒启动和进程初始化期间处理 `mount_protected` 参数。

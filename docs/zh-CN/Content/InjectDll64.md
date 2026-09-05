@@ -1,6 +1,6 @@
 # 注入 Dll64
 
-_InjectDll_ 是 [Sandboxie Ini](SandboxieIni.md) 中的一项沙盒设置。它告诉 Sandboxie 把某个 DLL“注入”到沙盒中的每个程序。“注入”意味着该 DLL 会
+_InjectDll_ 是 [Sandboxie Ini](SandboxieIni.md) 中的一项沙盒设置。它告诉 Sandboxie 把某个 DLL“注入”到沙盒中的每个程序。“注入”意味着该 DLL 会被加载到进程中，例如：
 ```
    .
    .
